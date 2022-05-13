@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --ligth-orange: #FF944D;
+    --ligth-green: #DFF0D7;
+    --green: #43894E;
+    --gray: #777777;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card--box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 5rem;
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid var(--ligth-orange);
+    width: 170px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 185px;
+}
+
+.bank-card {
+    padding: .8rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+}
+
+.bank-card h2 {
+    line-height: 1.4;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    overflow: hidden;
+    max-height: 2.8rem; /*  Ajustar espacio blanco */
+    text-transform:capitalize;
+}
+
+.account-card {
+    padding: .2rem .5rem;
+}
+
+.account-card p {
+    color: #777777;
+    font-size: 16px;
+}
+
+.buttons-card {
+    padding: .8rem .5rem;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+
+}
+
+
+.button {
+    display: inline-block;
+    color: #212529;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .3rem 0rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.button-green {
+    color: #fff;
+    background-color: var(--ligth-green);
+    border-color: var(--green);
+    color: var(--green);
+    width: 100px;
+}
+.button-orange {
+    color: #fff;
+    background-color: var(--ligth-orange);
+    border-color: var(--ligth-orange);
+    width: 100px;
+}
