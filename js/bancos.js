@@ -9,7 +9,7 @@ let bancos = [
     "Itau-Helm Bank",
     "Scotiabank Colpatria",
     "Banco De Occidente",
-    "Bancoldex S.A.",
+    "Bancoldex",
     "Banco Caja Social BCSC",
     "Banco Agrario",
     "Banco Mundo Mujer",
